@@ -1,4 +1,3 @@
-// swift-tools-version:6.1
 import PackageDescription
 
 let package = Package(
@@ -9,7 +8,8 @@ let package = Package(
     products: [
         .library(
             name: "MMWormhole",
-            targets: ["MMWormhole"]),
+            targets: ["MMWormhole"]
+        ),
     ],
     targets: [
         .target(
@@ -19,4 +19,6 @@ let package = Package(
             cSettings: [
                 .headerSearchPath(".")
             ]
-    ])
+        )
+    ]
+)
